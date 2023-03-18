@@ -7,6 +7,7 @@ const IndexPage = () => {
         Congratulations
         <br />
         <span>— you just made a Gatsby site! 🎉🎉🎉</span>
+        {/* /pokemon /.netlify/functions/index 200! */}
       </h1>
     </main>
   );

@@ -16,7 +16,7 @@ module.exports = {
         mergeSecurityHeaders: true, // boolean to turn off the default security headers
         // mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
         mergeCachingHeaders: true, // boolean to turn off the default caching headers
-        generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
+        generateMatchPathRewrites: false, // boolean to turn off automatic creation of redirect rules for client only paths
       },
     },
   ],

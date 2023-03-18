@@ -40,12 +40,8 @@ export async function getServerData() {
     const dataToJson = await data.json();
     return {
       props: dataToJson,
-      status: 200,
     };
   } catch (error) {
     console.log(error);
-    return {
-      status: 200,
-    };
   }
 }

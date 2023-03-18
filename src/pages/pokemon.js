@@ -40,12 +40,12 @@ export async function getServerData() {
     const dataToJson = await data.json();
     return {
       props: dataToJson,
-      status: 301,
+      status: 304,
     };
   } catch (error) {
     console.log(error);
     return {
-      status: 301,
+      status: 304,
     };
   }
 }

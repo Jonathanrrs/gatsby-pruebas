@@ -1,8 +1,8 @@
 import * as React from "react";
-
+import "../styles/global.css";
 const IndexPage = () => {
   return (
-    <main>
+    <main className="container">
       <h1>
         Congratulations
         <br />

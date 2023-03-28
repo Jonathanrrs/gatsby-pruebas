@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 const Pokemon = ({ serverData }) => {
-  console.log(document.readyState, "Doc js");
 
   return (
     <div>
